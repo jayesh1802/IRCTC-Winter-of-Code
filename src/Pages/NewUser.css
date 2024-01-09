@@ -1,0 +1,77 @@
+.new-user {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .newuser-page-heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .newuser-page-heading img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .newuser-page-heading h1 {
+    font-size: 1.5rem;
+  }
+  
+  .newUser-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left:380px;
+    margin-right:380px;
+    margin-top:100px;
+  }
+  
+  .newUser-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newUser-form label {
+    margin-bottom: 5px;
+  }
+  
+  .newUser-form input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .newUser-form input:focus {
+    outline: none;
+    border-color: dodgerblue;
+  }
+  
+  .form-name {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-firstName{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-lastName{
+    display: flex;
+    flex-direction: column;
+  }
+  .password {
+    display: flex;
+    flex-direction: column;
+  }
+  .newUser-mobile
+{
+    display: flex;
+    flex-direction: column;
+}
+  
+  
